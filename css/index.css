@@ -1,0 +1,259 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    padding-bottom: 100px;
+}
+
+header {
+    background-image: url('../images/background.png');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #333;
+    padding: 10px;
+    z-index: 1000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.center-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+}
+
+.circle-image {
+    background-image: url('../images/received_1155996185035794.jpeg');
+    background-size: cover;
+    width: 150px;
+    height: 250px;
+    border-radius: 50%;
+    margin: 20px auto;
+}
+
+section {
+    padding: 50px 0;
+}
+
+.project-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    background-color: rgb(93, 175, 243);
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.project-details {
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+}
+
+.project-details h3 {
+    margin-top: 0;
+}
+
+.project-details p {
+    margin-bottom: 10px;
+}
+
+.project-details a {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #333;
+}
+
+.project-details a i {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.project-details a:hover {
+    color: #000;
+}
+
+.fa-fa-github {
+    font-size: 24px;
+    color: #fff;
+}
+
+#skills {
+    text-align: center;
+}
+
+.skills-icons {
+    margin-top: 20px;
+}
+
+.skills-icons i {
+    font-size: 36px;
+    margin: 0 40px;
+    color: #fff;
+}
+
+#about {
+    text-align: center;
+    color: #fff;
+}
+
+#about h2 {
+    margin-bottom: 20px;
+}
+
+#contact,
+#about,
+#projects,
+#skills {
+    width: 100%;
+    height: 100%;
+    padding: 60px 0;
+    color: #fff;
+    padding-top: 10px;
+}
+
+.section-header {
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px 0;
+    font: 300 20px 'Oswald', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+
+.contact-wrapper,
+#about,
+.center-content,
+.project-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 840px;
+}
+
+.direct-contact-container {
+    max-width: 400px;
+}
+
+.contact-list {
+    list-style-type: none;
+    padding-right: 30px;
+    
+}
+
+.list-item {
+    line-height: 4;
+    color: #ffffff;
+    margin-right: 25px;
+    
+}
+
+.contact-text {
+    font: 300 18px 'Lato', sans-serif;
+    letter-spacing: 1.9px;
+    color: #ffffff;
+}
+
+.place {
+    margin-left: 62px;
+}
+
+.phone {
+    margin-left: 56px;
+}
+
+.gmail {
+    margin-left: 56px;
+}
+
+.contact-text a {
+    color: #fff;
+    text-decoration: none;
+    transition-duration: 0.2s;
+}
+
+.contact-text a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.fa-github,
+.fa-linkedin {
+    font-size: 72px;
+    color:  #ffffff;
+    transform: scale(1.7);
+    margin: 5%;
+}
+
+#about, #projects, #skills {
+    border-bottom: 2px solid #fff;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+}
+
+
+#contact {
+    position: relative;
+}
+
+#contact::after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    margin-bottom: 20px; /* Adjust the margin as needed */
+}
+
+.copyright {
+    text-align: center;
+    color: #fff;
+    margin: 20px 0; /* Adjust the margin as needed */
+}
