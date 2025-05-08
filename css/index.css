@@ -126,7 +126,7 @@ section {
     text-align: center;
     margin: 0 auto;
     padding: 20px 0; 
-    font: 300 24px 'Oswald', sans-serif;
+    font: 300 24px , sans-serif;
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 4px;
