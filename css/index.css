@@ -68,7 +68,7 @@ section {
     padding: 50px 0;
 }
 
-/* ✅ Updated to enable horizontal layout */
+
 #projects .center-content {
     display: flex;
     flex-wrap: wrap;
@@ -79,7 +79,13 @@ section {
     text-align: center;
 }
 
-/* ✅ Updated project-box for horizontal alignment */
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
 .project-box {
     display: flex;
     flex-direction: column;
