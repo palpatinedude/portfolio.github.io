@@ -68,6 +68,18 @@ section {
     padding: 50px 0;
 }
 
+/* ✅ Updated to enable horizontal layout */
+#projects .center-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* ✅ Updated project-box for horizontal alignment */
 .project-box {
     display: flex;
     flex-direction: column;
@@ -77,7 +89,7 @@ section {
     overflow: hidden;
     margin-bottom: 20px;
     background-color: rgb(93, 175, 243);
-    width: 100%;
+    width: 300px;
     box-sizing: border-box;
 }
 
@@ -164,7 +176,6 @@ section {
 
 .contact-wrapper,
 #about,
-.center-content,
 .project-box {
     display: flex;
     flex-direction: column;
@@ -181,14 +192,12 @@ section {
 .contact-list {
     list-style-type: none;
     padding-right: 30px;
-    
 }
 
 .list-item {
     line-height: 4;
     color: #ffffff;
     margin-right: 25px;
-    
 }
 
 .contact-text {
@@ -234,7 +243,6 @@ section {
     margin-bottom: 40px;
 }
 
-
 #contact {
     position: relative;
 }
@@ -249,11 +257,11 @@ section {
     width: 100%;
     height: 2px;
     background-color: #fff;
-    margin-bottom: 20px; /* Adjust the margin as needed */
+    margin-bottom: 20px;
 }
 
 .copyright {
     text-align: center;
     color: #fff;
-    margin: 20px 0; /* Adjust the margin as needed */
+    margin: 20px 0;
 }
