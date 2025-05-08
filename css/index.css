@@ -122,6 +122,16 @@ section {
     color: #333;
 }
 
+#projects h2 {
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 0; 
+    font: 300 24px 'Oswald', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
 .project-details a i {
     font-size: 24px;
     margin-right: 10px;
